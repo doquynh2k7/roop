@@ -121,7 +121,8 @@ def suggest_execution_threads() -> int:
     if 'ROCMExecutionProvider' in roop.globals.execution_providers:
         return 2
     # return 8
-    return 8 #Q:edit
+    #Q:edit
+    return 12
 
 
 def limit_resources() -> None:
